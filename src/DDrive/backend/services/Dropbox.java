@@ -1,8 +1,8 @@
-package backend.services;
+package DDrive.backend.services;
 
-import backend.DDrive;
+import DDrive.backend.IDDrive;
 
-public class Dropbox implements DDrive {
+public class Dropbox implements IDDrive {
 
 	public Dropbox () {
 		// TODO: Fill in function body
@@ -19,13 +19,12 @@ public class Dropbox implements DDrive {
 	}
 
 	@Override
-	public byte[] download(String filePath) {
+	public void download(String filePath, String destinationPath) {
 		// TODO Auto-generated method stub
-		return null;
 	}
 
 	@Override
-	public void upload(String filePath) {
+	public void upload(String filePath, String destinationPath) {
 		// TODO Auto-generated method stub
 	}
 
