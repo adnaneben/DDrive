@@ -3,5 +3,8 @@ package DDrive.backend;
 /** This enum stores all possible services.
  */
 public enum ServiceEnum {
-	Dropbox
+	Dropbox,
+	GDrive,
+	SkyDrive,
+	UbuntuOne
 }
