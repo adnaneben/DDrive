@@ -9,22 +9,22 @@ public class SkyDrive implements IDDrive {
 	}
 	
 	@Override
-	public void move(String filePath, String destinationPath) {
+	public void move(String sourceFile, String destinationFile) {
 		// TODO Auto-generated method stub
 	}
 
 	@Override
-	public void copy(String filePath, String destinationPath) {
+	public void copy(String sourceFile, String destinationFile) {
 		// TODO Auto-generated method stub
 	}
 
 	@Override
-	public void download(String filePath, String destinationPath) {
+	public void download(String sourceFile, String destinationFile) {
 		// TODO Auto-generated method stub
 	}
 
 	@Override
-	public void upload(String filePath, String destinationPath) {
+	public void upload(String sourceFile, String destinationFile) {
 		// TODO Auto-generated method stub
 	}
 

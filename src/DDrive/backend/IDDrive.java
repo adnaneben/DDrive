@@ -8,37 +8,38 @@ package DDrive.backend;
  * @author	Niklas Witzel
  */
 public interface IDDrive {
+	
 	/** Moves the specified file to the specified destination.
 	 * 
-	 * @param filePath			Source directory
-	 * @param destinationPath	Destination directory
+	 * @param sourceFile			Source directory
+	 * @param destinationFile	Destination directory
 	 */
-	void move (String filePath, String destinationPath);
+	public void move (String sourceFile, String destinationFile);
 	
 	
 	
 	/** Clones the specified file to the specified destination.
 	 * 
-	 * @param filePath			Source path
-	 * @param destinationPath	Destination path
+	 * @param sourceFile			Source path
+	 * @param destinationFile	Destination path
 	 */
-	void copy (String filePath, String destinationPath);
+	public void copy (String sourceFile, String destinationFile);
 	
 	
 	
 	/** Downloads the specified file.
 	 * 
-	 * @param filePath			Source path
-	 * @param destinationPath	Destination path
+	 * @param sourceFile			Source path
+	 * @param destinationFile	Destination path
 	 */
-	void download (String filePath, String destinationPath);
+	public void download (String sourceFile, String destinationFile);
 	
 	
 	
 	/** Uploads the specified file.
 	 * 
-	 * @param filePath			Source path
-	 * @param destinationPath	Destination path
+	 * @param sourceFile			Source path
+	 * @param destinationFile	Destination path
 	 */
-	void upload (String filePath, String destinationPath);
+	void upload (String sourceFile, String destinationFile);
 }
